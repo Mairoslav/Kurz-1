@@ -1,0 +1,193 @@
+body
+{
+background-color: grey;
+font-family: Arial, Helvetica, sans-serif;
+background: url(../images/GrungeSeamlessScratchedPatternattern.png);
+}
+
+#mainWrapper 
+{
+width: 990px;
+background-color: white;
+margin: auto;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.clearFix {
+	clear: both;
+}
+
+.sectionTitle{
+	text-align: center;
+	font-size: 34px;
+	color: #5c0099;
+	padding-top: 30px; 
+}
+
+/*header*/
+
+header {
+	border-top: 7px solid #5c0099; 
+}
+
+#logo
+{
+width: 200px; 	
+margin-top: 15px;
+}
+
+#mainMenu
+{
+width: 790px; 	
+text-align: right; 
+}
+
+#mainMenu ul {
+	list-style-type: none;
+	padding: 0; 
+	display: inline-block; 
+	margin-top: 25px;
+}
+
+#mainMenu ul li {
+	float: left; 
+	margin-left: 5px; 
+}
+
+#mainMenu ul li a{
+	text-decoration: none;
+	font-weight: bolt;
+	color: #5c0099;
+	padding: 10px 30px; 
+	font-size: 18px;
+}
+
+#mainMenu ul li a:hover{
+	border-bottom: 2px solid; #5c0099;
+}
+
+/*banner*/
+
+#aboutUs {
+	background-color: #5c0099; 
+}
+
+#bannerLeft {
+	text-align: center;
+	width: 590px;
+}
+
+#bannerLeft h1 {
+	margin-top: 65px;
+	color: #fff 
+}
+
+#bannerLeft p {
+	color:   #fff
+}
+
+#bannerLeft hr {
+	width: 300px;
+	height: 3px; 
+	background-color: #fff;
+	border: none; 
+	
+}
+
+/*services*/
+
+
+.floatLeft {
+	float: left; 
+}
+
+.floatRight {
+	float: right; 
+}
+
+.clearFix {
+	clear: both; 
+}
+
+.sectionTitle { 
+	text-align: center; 
+}
+
+#services {
+	background-color: #fff;
+	margin-top: 30px;
+	padding-bottom: 30px;	
+}
+
+.servicesBox {
+	margin-left: 22px;
+}
+
+.servicesBox first-of-type {
+	margin-left: 23px; 
+}
+
+.servicesBox .servicesDescription {
+	background-color: #5c0099;
+	color:#fff;
+	padding:10px 7px;
+	font-weight: bolt; 
+}
+
+/* priceList */
+#priceList {
+	background-color: #f5e6ff;
+	padding-bottom: 15px;
+	
+}
+
+#priceList hr{
+	height: 3px;
+	background-color: #5c0099;
+}
+
+#priceList table {
+	padding: 0 10px;
+}
+
+
+/* Contact */
+
+#contact {
+	margin: 30px 0; 
+}
+
+
+.contactPanel {
+	width: 350px; 
+	margin-top: 40px;
+	padding-right: 20px; 
+}
+
+.contactPanel h3 {
+	padding-bottom: 5px; 
+
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	background-color: #5c0099;
+	padding: 20px 0;
+	color: #fff;
+}
+
+
+
+
+
+
+
